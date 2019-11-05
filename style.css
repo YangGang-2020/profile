@@ -1,0 +1,86 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap');
+
+body {
+  background-color: rgb(167, 165, 148);
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  color: #82CF93;
+}
+
+h2 {
+  color: #82CF93;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.btn-purple {
+  background-color: #8756d0;
+  padding: 16px 24px;
+  border-radius: 3px;
+  color: white;
+  font-family: "Open Sans";
+}
+
+.btn-purple:hover {
+  background-color: #441886;
+}
+
+.card-white {
+ background-color: rgb(255, 255, 255);
+ border-radius: 4px;
+ width: 400px;
+ padding: 30px 50px;
+ text-align: center;
+ box-shadow: 10px 10px 30px rgba(0, 0,0, 0.1);
+ margin: 50px auto;
+}
+
+#logo {
+  width: 100px;
+  border-radius: 65%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: orange;
+  margin: 24px;
+}
+
+.video {
+  margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+    .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+
+}
